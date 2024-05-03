@@ -1,0 +1,9 @@
+@model IEnumerable<Transport_Square.Models.UserViewModel>
+
+<ul>
+    @foreach(var user in Model){
+        <li>
+            <h1>@user.Username, hello World!</h1>
+        </li>
+    }
+</ul>
